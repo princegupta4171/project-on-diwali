@@ -1,0 +1,96 @@
+* {
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://bestanimations.com/media/fireworks2/1589967346ba-pretty-delicate-firework-animated-gif-image.gif");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: fixed;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    color: yellow;
+    font-size: large;
+    font-style: italic;
+}
+
+.lightsUpLeft{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.lightsUpRight{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    font-weight: 900;
+    animation: spanimation 1s ease-in-out infinite;
+}
+
+.diwali_diyasLeft{
+    margin-top: 30px;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+.diwali_diyasRight{
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+}
+h2 {
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    font-weight: 500;
+    animation: spanimation 1s ease-in-out infinite;
+}
+
+.diyas {
+    align-items: center;
+    width: 500px;
+    height: 280px;
+    filter: brightness(50%);
+}
+
+.lightsDownLeft{
+    margin-top: 140px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.lightsDownRight{
+    margin-top: 140px;
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+keyframes spanimation {
+    from {
+        text-shadow: 0px 0px 50px rgb(165, 62, 22), 0px 0px 20px rgb(165, 62, 22),
+        0px 0px 30px #ffd700, 0px 0px 40px rgb(212,65,6),
+        0px 0px 50px rgb(240,75,9);
+    }
+    to {
+        text-shadow: 0px 0px 40px rgb(16, 197, 46), 0px 0px 20px gold,
+        0px 0px 30px rgb(212,65,6), 0px 0px 60px rgb(221,195,25,0.774),
+        0px 0px 50px rgb(16,175,43,0.863);
+    }
+}
